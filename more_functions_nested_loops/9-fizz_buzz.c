@@ -19,12 +19,12 @@ int main(void)
 	} else if (a % 3 == 0 && a % 5 == 0)
 	{
 		printf("FizzBuzz");
-	} else if (i == 1)
+	} else if (a == 1)
 	{
-		printf("%d", i);
-	} else
+		printf("%d", a);
+	} else if
 	{
-		printf(" %d", i);
+		printf(" %d", a);
 	}
 	printf("\n");
 
