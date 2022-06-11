@@ -1,4 +1,4 @@
-#include 'int _isupper(int c)'
+#include "int _isupper(int c)"
 
 /** main - checks for uppercase character.
  * @c: character to be checked
@@ -8,7 +8,12 @@
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
+	{	
 		return (0);
+	}
 	else (c >= 'a'&& c <= 'z')
+	{	
 		return (1);
+	}
 
+}
