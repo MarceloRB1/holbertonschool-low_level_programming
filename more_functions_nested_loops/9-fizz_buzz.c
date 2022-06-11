@@ -24,11 +24,10 @@ int main(void)
 	{
 		printf("%d", a);
 	} else
-
-		printf(" %d", a);
 	{
+		printf(" %d", a);
+}
+}
 	printf("\n");
 	return (0);
-	}
-	}
 }
