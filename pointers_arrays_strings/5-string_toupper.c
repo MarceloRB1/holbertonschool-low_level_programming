@@ -5,16 +5,14 @@
  * @s: string to modify
  * Return: the resulting string
  */
-
 char *string_toupper(char *s)
 {
-	int i; 
+	int i;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
-			s[1] = s[i] - 32;
+			s[i] = s[i] - 32;
 	}
-
 	return (s);
 }
