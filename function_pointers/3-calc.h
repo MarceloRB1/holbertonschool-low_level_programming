@@ -1,4 +1,4 @@
-fndef calc_h
+#ifndef calc_h
 #define calc_h
 #include <stddef.h>
 #include <stdio.h>
