@@ -1,8 +1,5 @@
 #include <elf.h>
  
-Leave a comment
-Ninguno archivo selec.
-Attach files by dragging & dropping, selecting or pasting them.
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
